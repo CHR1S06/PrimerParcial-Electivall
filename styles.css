@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Estilos del header */
+header {
+    background: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #00ff00; /* Verde */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #00ff00; /* Verde */
+}
+
+/* Estilos de la sección descripción */
+.descripcion {
+    padding: 40px 20px;
+    text-align: center;
+    background: #1a1a1a;
+}
+
+.descripcion img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.descripcion h2 {
+    font-size: 2.5rem;
+    color: #00ff00; /* Verde */
+}
+
+/* Estilos de la sección creador */
+.creador {
+    padding: 30px;
+    text-align: center;
+    background: #333;
+}
+
+.creador h2 {
+    font-size: 2rem;
+    color: #00ff00; /* Verde */
+}
+
+.creador p {
+    font-size: 1.2rem;
+}
+
+/* Estilos del footer */
+footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
